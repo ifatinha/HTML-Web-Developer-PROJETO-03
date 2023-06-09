@@ -1,0 +1,18 @@
+/* Generics */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    max-width: 1415px;
+    margin   : 0 auto;
+    width    : 100%;
+}
