@@ -22,17 +22,59 @@
 
 .headerStart-menu {
     align-items: center;
+    position   : relative;
 }
 
-.headerStart-menu a {
+.headerStart-menu>a {
     color     : #202122;
     font-size : 1.5rem;
     padding   : 5px;
     transition: .3s;
 }
 
-.headerStart-menu a:hover {
+.headerStart-menu>a:hover {
     background-color: #f8f9fa;
+}
+
+.menu-acordion {
+    border   : 1px solid #c8ccd1;
+    display  : none;
+    min-width: 210px;
+    position : absolute;
+    z-index  : 1;
+}
+
+.menu-acordion li {
+    font-size    : 0.875rem;
+    margin-bottom: 4px;
+    padding      : 4px 14px;
+}
+
+.menu-acordion p {
+    color: #54595d;
+}
+
+.menu-acordion a {
+    color          : #3366cc;
+    font-size      : 0.875rem;
+    text-decoration: none;
+}
+
+.menu-acordion a:hover {
+    text-decoration: underline;
+}
+
+.headerStart-menu_itens {
+    top: 50px;
+}
+
+.headerStart-menu_itens li:first-of-type,
+.headerStart-menu_itens li:nth-child(8) {
+    border-bottom: 1px solid #eaecf0;
+}
+
+.headerStart-menu:hover .menu-acordion {
+    display: block;
 }
 
 .headerStart-logo {
@@ -154,17 +196,29 @@
     transition     : .3s;
 }
 
-.headerEnd-menu li:last-of-type a {
+.headerEnd-menu>li:last-of-type>a {
     color     : #202122;
     font-size : 1.5rem;
     transition: .3s;
-    padding   : 5px;
+    padding   : 1px 4px;
 }
 
-.headerEnd-menu li:last-of-type a:hover {
+.headerEnd-menu>li:last-of-type>a:hover {
     background-color: #f8f9fa;
 }
 
 .headerEnd-menu a:hover {
     text-decoration: underline;
+}
+
+.headerEnd-menu>li:last-of-type {
+    position: relative;
+}
+
+.headerEnd-menu>li:last-of-type:hover .menu-acordion {
+    display: block;
+}
+
+.headerEnd-menu_acordion {
+    right: 2px;
 }
