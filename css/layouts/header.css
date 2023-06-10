@@ -1,7 +1,7 @@
 /* Header CSS */
 .header-container {
     gap                  : 50px;
-    grid-template-columns: 240px 1080px;
+    grid-template-columns: 1fr 4fr;
     grid-template-areas  : "headerStart headerEnd";
     padding              : 10px 2%;
 }
@@ -117,7 +117,7 @@
 }
 
 .header-search input {
-    background-image   : url("../images/lupa.png");
+    background-image   : url("../../images/lupa.png");
     background-repeat  : no-repeat;
     background-position: 8px center;
     background-color   : #fff;
