@@ -1,6 +1,37 @@
 /* Generics */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+    color           : #202122;
+    font-family     : Arial, Helvetica, sans-serif;
+}
+
+.menu-acordion {
+    background-color: #fff;
+    border          : 1px solid #c8ccd1;
+    display         : none;
+    min-width       : 210px;
+    position        : absolute;
+    z-index         : 1;
+}
+
+.menu-acordion li {
+    font-size    : 0.875rem;
+    margin-bottom: 4px;
+    padding      : 4px 14px;
+}
+
+.menu-acordion p {
+    color: #54595d;
+}
+
+.menu-acordion a {
+    color          : #3366cc;
+    font-size      : 0.875rem;
+    text-decoration: none;
+}
+
+.menu-acordion a:hover {
+    text-decoration: underline;
 }
 
 .grid {
@@ -12,7 +43,8 @@ body {
 }
 
 .container {
-    max-width: 1500px;
+    max-width: 1450px;
     margin   : 0 auto;
+    padding  : 0 2%;
     width    : 100%;
 }

@@ -3,7 +3,7 @@
     gap                  : 50px;
     grid-template-columns: 1fr 4fr;
     grid-template-areas  : "headerStart headerEnd";
-    padding              : 10px 2%;
+    padding              : 10px 0;
 }
 
 @media screen and (max-width: 780px) {
@@ -23,6 +23,7 @@
 .headerStart-menu {
     align-items: center;
     position   : relative;
+    z-index    : 99;
 }
 
 .headerStart-menu>a {
@@ -34,34 +35,6 @@
 
 .headerStart-menu>a:hover {
     background-color: #f8f9fa;
-}
-
-.menu-acordion {
-    border   : 1px solid #c8ccd1;
-    display  : none;
-    min-width: 210px;
-    position : absolute;
-    z-index  : 1;
-}
-
-.menu-acordion li {
-    font-size    : 0.875rem;
-    margin-bottom: 4px;
-    padding      : 4px 14px;
-}
-
-.menu-acordion p {
-    color: #54595d;
-}
-
-.menu-acordion a {
-    color          : #3366cc;
-    font-size      : 0.875rem;
-    text-decoration: none;
-}
-
-.menu-acordion a:hover {
-    text-decoration: underline;
 }
 
 .headerStart-menu_itens {
