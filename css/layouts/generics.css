@@ -3,6 +3,7 @@ body {
     background-color: #f8f9fa;
     color           : #202122;
     font-family     : Arial, Helvetica, sans-serif;
+    width           : 100%;
 }
 
 .menu-acordion {
@@ -43,8 +44,9 @@ body {
 }
 
 .container {
-    max-width: 1450px;
-    margin   : 0 auto;
-    padding  : 0 2%;
-    width    : 100%;
+    max-width    : 1500px;
+    margin       : 0 auto;
+    padding-left : 2%;
+    padding-right: 2%;
+    width        : 100%;
 }

@@ -3,7 +3,8 @@
     gap                  : 50px;
     grid-template-columns: 1fr 4fr;
     grid-template-areas  : "headerStart headerEnd";
-    padding              : 10px 0;
+    padding-top          : 10px;
+    padding-bottom       : 10px;
 }
 
 @media screen and (max-width: 780px) {

@@ -94,19 +94,46 @@
         </div>
     </header>
 
-    <div class="container">
-        <main class="main">
-            <div class="main-menu">
-                <ul>
+    <main>
+        <div class="container grid main">
+            <div class="main-menu flex">
+                <ul class="flex main-menu_lista">
                     <li><a href="/">Página principal</a></li>
                     <li><a href="/">Discussão</a></li>
                 </ul>
 
-                <ul>
+                <ul class="flex main-menu_lista">
                     <li><a href="#">Ler</a></li>
                     <li><a href="#">Ver fonte</a></li>
                     <li><a href="#">Ver histórico</a></li>
-                    <li><a href="#">Ferramentas</a></li>
+                    <li class="main-menu_acordion">
+                        <a href="#">Ferramentas <i class="fa-solid fa-angle-down"></i></a>
+
+                        <div class="menu-acordion">
+                            <ul>
+                                <li><p>Ferramentas</p></li>
+                                <li><p>Geral</p></li>
+                                <li><a href="#">Páginas afluentes</a></li>
+                                <li><a href="#">Alterações relacionadas</a></li>
+                                <li><a href="#">Carregar Ficheiro</a></li>
+                                <li><a href="#">Páginas especiais</a></li>
+                                <li><a href="#">Hiperligação permanente</a></li>
+                                <li><a href="#">Informações da página</a></li>
+                                <li><a href="#">Elementos Wikidata</a></li>
+                                <li><a href="#">Editar Hiperligações interlinguas</a></li>
+                                <li><p>Imprimir/exportar</p></li>
+                                <li><a href="#">Criar um livro</a></li>
+                                <li><a href="#">Descarregar como PDF</a></li>
+                                <li><a href="#">Versão para impressão</a></li>
+                                <li><p>Noutros projetos</p></li>
+                                <li><a href="#">Wikimedia Commons</a></li>
+                                <li><a href="#">MediaWiki</a></li>
+                                <li><a href="#">Meta-Wiki</a></li>
+                                <li><a href="#">Divulgação da Wikimedia</a></li>
+                                <li><a href="#">Wikisource multilingue</a></li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
             </div>
             <div class="main-info">
@@ -166,8 +193,9 @@
                     </li>
                 </ul>
             </div>
-        </main>
-    </div>
+        </div>
+    </main>
+
     <script src="https://kit.fontawesome.com/09fa9cee0a.js" crossorigin="anonymous"></script>
 </body>
 
