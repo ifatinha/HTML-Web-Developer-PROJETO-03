@@ -2,7 +2,7 @@
 body {
     background-color: #f8f9fa;
     color           : #202122;
-    font-family     : Arial, Helvetica, sans-serif;
+    font-family     : sans-serif;
     width           : 100%;
 }
 
@@ -44,9 +44,15 @@ body {
 }
 
 .container {
-    max-width    : 1500px;
+    max-width    : 1450px;
     margin       : 0 auto;
     padding-left : 2%;
     padding-right: 2%;
     width        : 100%;
+}
+
+.title {
+    color       : #555555;
+    font-variant: small-caps;
+    line-height : 40px;
 }

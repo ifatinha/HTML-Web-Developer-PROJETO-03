@@ -1,4 +1,5 @@
 /* Styles */
 @import "layouts/generics.css";
 @import "layouts/header.css";
+@import "layouts/grid.css";
 @import "layouts/principal.css";

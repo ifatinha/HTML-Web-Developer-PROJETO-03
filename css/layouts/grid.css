@@ -1,0 +1,7 @@
+.main {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas  :
+        "main-menu main-menu main-menu"
+        "main-info main-info main-info"
+        "main-topics main-topics main-topics";
+}
