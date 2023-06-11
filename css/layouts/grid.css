@@ -1,7 +1,12 @@
 .main {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas  :
-        "main-menu main-menu main-menu"
-        "main-info main-info main-info"
-        "main-topics main-topics main-topics";
+        "main-menu main-menu"
+        "main-info main-info"
+        "main-topics main-topics"
+        "article1 article2"
+        "article3 article4"
+        "imageDay imageDay"
+        "aboutWiki aboutWiki"
+        "brotherProject brotherProject";
 }
