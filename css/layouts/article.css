@@ -1,41 +1,3 @@
-.article {
-    margin-top : 10px;
-    margin-left: 4px;
-}
-
-.article-title {
-    border-bottom: 1px solid #555555;
-    margin-bottom: 4px;
-    padding      : 10px 10px 10px 25px;
-}
-
-.article h2 {
-    color      : #555555;
-    font-size  : 1.625rem;
-    line-height: 40px;
-}
-
-.article-content {
-    padding: 20px;
-}
-
-.article1 .article-content,
-.article2 .article-content {
-    background-color: #f0f9f0;
-}
-
-.article3 .article-content,
-.article4 .article-content {
-    background-color: #f0f0f9;
-}
-
-.article-content_paragraphs p,
-.article-content_paragraphs a,
-.article-content_footer {
-    font-size  : 0.875rem;
-    line-height: 22px;
-}
-
 .article1 {
     grid-area: article1;
 }
@@ -50,4 +12,124 @@
 
 .article4 {
     grid-area: article4;
+}
+
+.article {
+    margin-top : 10px;
+    margin-left: 4px;
+}
+
+.article-title {
+    border-bottom: 1px solid #555555;
+    padding      : 10px 10px 10px 25px;
+}
+
+.article h2 {
+    color      : #555555;
+    font-size  : 1.625rem;
+    line-height: 40px;
+}
+
+.article1 .article-content,
+.article2 .article-content {
+    background-color: #f0f9f0;
+}
+
+.article3 .article-content,
+.article4 .article-content {
+    background-color: #f0f0f9;
+}
+
+.article-content {
+    border-top           : 3px solid #fff;
+    font-size            : 0.875rem;
+    gap                  : 8px;
+    grid-template-columns: 1fr 1fr auto;
+    grid-template-areas  :
+        "articleItem1 articleItem1 img"
+        "articleItem2 articleItem2 articleItem2"
+        "articleFooter articleFooter articleFooter";
+    line-height: 22px;
+    padding    : 10px;
+    width      : 100%;
+}
+
+.article-content p {
+    margin-bottom: 7px;
+}
+
+.article-content a {
+    color          : #3366cc;
+    text-decoration: none;
+}
+
+.article-content a:hover {
+    text-decoration: underline;
+}
+
+.article-content>p:first-of-type {
+    grid-area: articleItem1;
+}
+
+.article-content img {
+    grid-area   : img;
+    height      : 200px;
+    justify-self: flex-end;
+}
+
+.article-content>p:last-of-type {
+    grid-area: articleItem2;
+}
+
+.article-content_footer {
+    grid-area      : articleFooter;
+    gap            : 20px;
+    justify-content: space-between;
+    margin-top     : 20px;
+}
+
+.article-content_footer ul {
+    font-size: 0.830rem;
+    gap      : 5px;
+}
+
+.article-content_footer ul p {
+    font-weight: 700;
+}
+
+.article-content_footer ul i {
+    color: #555555;
+}
+
+.article-content_footer ul a {
+    font-weight: bolder;
+}
+
+.article-main-events {
+    grid-area: articleItem1;
+}
+
+.article-main-events li::before {
+    content     : "•";
+    font-weight : 200;
+    margin-right: 5px;
+    text-align  : center;
+}
+
+.article-other-events {
+    grid-area : articleItem2;
+    margin-top: 20px;
+}
+
+.article-other-events p {
+    border-top: 1px dotted;
+    padding   : 10px 0;
+}
+
+.article-other-events p:last-of-type {
+    border-bottom: 1px dotted;
+}
+
+.article2 .article-content_footer {
+    justify-self: end;
 }
