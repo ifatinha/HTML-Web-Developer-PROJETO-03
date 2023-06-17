@@ -4,6 +4,7 @@
 
 .projects-content {
     align-items   : center;
+    background    : #f5f5f5;
     flex-direction: column;
     padding       : 20px 10px;
 }

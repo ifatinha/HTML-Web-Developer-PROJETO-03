@@ -107,28 +107,26 @@
     width              : 400px;
 }
 
-.header-search:hover button {
-    border-left-color: #a2a9b1;
-    display          : inline-block;
-    opacity          : .9;
-}
-
 .header-search button {
-    background-color: #fff;
-    border          : 1px solid transparent;
+    background-color: #f8f9fa;
+    border-color    : #a2a9b1;
     border-radius   : 0 2px;
     color           : #404244;
     cursor          : pointer;
-    display         : none;
     font-family     : sans-serif;
     font-size       : 0.875rem;
     font-weight     : 700;
     height          : 100%;
     margin          : -1px -2px -1px 0;
+    outline         : none;
     padding         : 6px 10px;
     text-align      : center;
-    transition      : .3s;
+    transition      : .3s all ease-in;
     width           : 95px;
+}
+
+.header-search button:hover {
+    background-color: #fff;
 }
 
 .header-search_mob {
