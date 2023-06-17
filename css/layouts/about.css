@@ -1,0 +1,21 @@
+.about {
+    grid-area: aboutWiki;
+}
+
+.about-content {
+    background : #f5f5f5;
+    color      : #201222;
+    font-family: sans-serif;
+    font-size  : 0.875rem;
+    line-height: 22px;
+    padding    : 10px;
+}
+
+.about-content p {
+    margin-bottom: 8px;
+}
+
+.about-content .article-links {
+    justify-content: end;
+    margin-top     : 20px;
+}

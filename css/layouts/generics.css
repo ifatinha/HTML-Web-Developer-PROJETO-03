@@ -56,3 +56,52 @@ body {
     font-variant: small-caps;
     line-height : 40px;
 }
+
+.bolder {
+    font-weight: bolder;
+}
+
+.article-title {
+    border-bottom: 1px solid #555555;
+    padding      : 10px 10px 10px 25px;
+}
+
+.article-title h2 {
+    color      : #555555;
+    font-size  : 1.625rem;
+    line-height: 40px;
+}
+
+.social-icon {
+    color: #555555;
+}
+
+.article-links {
+    font-size      : 0.812rem;
+    gap            : 20px;
+    justify-content: end;
+    width          : 100%;
+}
+
+.article-links ul {
+    gap: 5px;
+}
+
+.article2 .article-content_news li::before,
+.article3 .article-content_footer li:not(li:first-of-type)::before,
+.article4 .article-content_footer li:not(li:first-of-type)::before,
+.article-links ul:last-of-type li:not(li:first-of-type)::before {
+    content     : "•";
+    font-weight : 200;
+    margin-right: 5px;
+    text-align  : center;
+}
+
+.link {
+    color          : #3366cc;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}

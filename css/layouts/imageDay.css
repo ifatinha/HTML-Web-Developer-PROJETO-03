@@ -1,0 +1,29 @@
+.articleImage {
+    grid-area: imageDay;
+}
+
+.imageDay {
+    align-items     : center;
+    background-color: #e2e2db;
+    border-top      : 3px solid #fff;
+    color           : #201222;
+    flex-direction  : column;
+    font-family     : sans-serif;
+    font-size       : 0.875rem;
+    gap             : 10px;
+    justify-content : center;
+    padding         : 10px;
+}
+
+.imageDay img {
+    aspect-ratio: auto 518 / 380;
+    border      : 2px solid #fff;
+    width       : 500px;
+}
+
+.imageDay span {
+    color      : #201222;
+    font-size  : 0.75rem;
+    font-style : italic;
+    line-height: 20px;
+}

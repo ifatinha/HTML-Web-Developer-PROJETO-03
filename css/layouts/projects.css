@@ -1,0 +1,64 @@
+.projects {
+    grid-area: brotherProject;
+}
+
+.projects-content {
+    align-items   : center;
+    flex-direction: column;
+    padding       : 20px 10px;
+}
+
+.projects-content p {
+    color      : #201222;
+    font-size  : 0.875rem;
+    line-height: 22px;
+}
+
+.projects-lista {
+    align-items    : start;
+    flex-wrap      : wrap;
+    gap            : 20px 10px;
+    justify-content: center;
+    margin         : 40px 0;
+    width          : 100%;
+}
+
+.project-item {
+    flex: 1 0 250px;
+    gap : 8px;
+}
+
+.project-item img {
+    height: 30px;
+    width : 30px;
+}
+
+.project-item p {
+    color     : #202122;
+    font-style: italic;
+    font-size : 0.75rem;
+}
+
+.projects-language {
+    justify-content: end;
+}
+
+.projects-language a {
+    align-items    : center;
+    border-radius  : 4px;
+    color          : #3366cc;
+    font-family    : Arial, sans-serif;
+    font-size      : 0.812rem;
+    font-weight    : 700;
+    gap            : 5px;
+    justify-content: center;
+    padding        : 8px 18px;
+    text-align     : center;
+    text-decoration: none;
+    transition     : .3s all ease-in;
+}
+
+.projects-language a:hover {
+    background-color: #eaf3ff;
+    color           : #447ff5;
+}
