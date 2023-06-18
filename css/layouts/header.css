@@ -109,7 +109,7 @@
 
 .header-search button {
     background-color: #f8f9fa;
-    border-color    : #a2a9b1;
+    border          : none;
     border-radius   : 0 2px;
     color           : #404244;
     cursor          : pointer;
